@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+  int a=87,b=56;
+   printf("before swapping a and b are:%d %d",a,b);
+  a=a^b;
+  b=a^b;
+  a=a^b;
+  printf("after swapping a and b are:%d %d",a,b);
+    return 0;
+}
+ 
+ 
+ //here xor will do the following operations:
+ //if the first operand is greater than second it will do subtraction ex 3 >2 means 3-2=1 (0011^0010)
+ //if the first operand is less than second it will do addition ex 1<2 means 1+2=3 (0001^0010)
+ //if the secon
