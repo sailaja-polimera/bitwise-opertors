@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+  int num=8,pos=3;
+  int result=(num^(1<<pos-1));
+  printf("after toggling num is:%d",result);
+    return 0;
+}
+  
