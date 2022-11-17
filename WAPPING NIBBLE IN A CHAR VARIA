@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+unsigned char k;
+      printf("enter the char:");
+       scanf(" %c",&k);
+       char temp1=(k<<4);
+       char temp2=(k>>4);
+       char res=temp1|temp2;
+       printf("%d",res);
+    return 0;
+    }
