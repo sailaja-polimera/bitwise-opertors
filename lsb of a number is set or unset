@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+  int num;
+  printf("enter the number:");
+  scanf("%d",&num);
+  if(num&1==1)
+      printf("lsb of a number is set=1");
+  else
+      printf("lsb of a number is unset=0"); 
+
+    return 0;
+}
