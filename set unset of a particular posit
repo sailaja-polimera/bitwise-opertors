@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+  int num,pos;
+  printf("enter the number:");
+  scanf("%d",&num);
+    printf("enter the position:");
+  scanf("%d",&pos);
+  if((num&(1<<pos-1)))
+      printf("given position is set=1");
+  else
+      printf("given position is unset=0"); 
+
+    return 0;
+}
