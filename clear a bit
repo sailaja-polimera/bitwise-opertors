@@ -1,0 +1,13 @@
+clearing a bit:clearing a bit indicates if the given position is 1 then it changes to 0 if it is 0 then it is unchanged 
+clear a bit : '&'
+set a bit :'|'
+toggle a bit:'^'
+
+#include <stdio.h
+int main()
+{
+    int n=8,pos=2;
+    int res=(n&~(1<<pos-1));
+    printf("clearing a bit at particular position:%d",res);
+    return 0;
+}
