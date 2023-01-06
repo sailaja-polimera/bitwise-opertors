@@ -3,7 +3,7 @@ clear a bit : '&'
 set a bit :'|'
 toggle a bit:'^'
 
-#include <stdio.h
+#include <stdio.h>
 int main()
 {
     int n=8,pos=2;
